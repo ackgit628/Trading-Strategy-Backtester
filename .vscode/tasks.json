@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Backtester",
+			"type": "shell",
+			"command": "/Users/akhilesh/Code/Trading Strategy Backtester/.venv/bin/python",
+			"args": [
+				"main.py"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}
