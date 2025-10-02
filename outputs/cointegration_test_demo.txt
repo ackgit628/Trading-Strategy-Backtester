@@ -1,0 +1,70 @@
+(.venv) akhilesh@Snehas-MacBook-Air Trading Strategy Backtester % py cointegration_test.py 
+/Users/akhilesh/Code/Trading Strategy Backtester/cointegration_test.py:12: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  data = yf.download(tickers, start=start_date, end=end_date)['Close']
+[*********************100%***********************]  2 of 2 completed
+Hedge Ratio (Beta): 2.4115
+
+--- ADF Test Results ---
+ADF Statistic: -2.1124
+P-value: 0.2396
+
+Conclusion: The p-value is greater than 0.05. The spread is likely non-stationary.
+The pair PEP/KO is not a good candidate for this strategy. ❌
+
+-------------------------------------------------------------
+(.venv) akhilesh@Snehas-MacBook-Air Trading Strategy Backtester % py cointegration_test.py
+/Users/akhilesh/Code/Trading Strategy Backtester/cointegration_test.py:12: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  data = yf.download(tickers, start=start_date, end=end_date)['Close']
+[*********************100%***********************]  2 of 2 completed
+Hedge Ratio (Beta): 1.0131
+
+--- ADF Test Results ---
+ADF Statistic: -1.1230
+P-value: 0.7058
+
+Conclusion: The p-value is greater than 0.05. The spread is likely non-stationary.
+The pair VZ/T is not a good candidate for this strategy. ❌
+
+-------------------------------------------------------------
+(.venv) akhilesh@Snehas-MacBook-Air Trading Strategy Backtester % py cointegration_test.py
+/Users/akhilesh/Code/Trading Strategy Backtester/cointegration_test.py:12: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  data = yf.download(tickers, start=start_date, end=end_date)['Close']
+[*********************100%***********************]  2 of 2 completed
+Hedge Ratio (Beta): 0.7683
+
+--- ADF Test Results ---
+ADF Statistic: -2.5173
+P-value: 0.1113
+
+Conclusion: The p-value is greater than 0.05. The spread is likely non-stationary.
+The pair HD/LOW is not a good candidate for this strategy. ❌
+
+-------------------------------------------------------------
+(.venv) akhilesh@Snehas-MacBook-Air Trading Strategy Backtester % py cointegration_test.py
+/Users/akhilesh/Code/Trading Strategy Backtester/cointegration_test.py:12: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  data = yf.download(tickers, start=start_date, end=end_date)['Close']
+[*********************100%***********************]  2 of 2 completed
+Hedge Ratio (Beta): 0.2018
+
+--- ADF Test Results ---
+ADF Statistic: -2.6102
+P-value: 0.0909
+
+Conclusion: The p-value is greater than 0.05. The spread is likely non-stationary.
+The pair APP/PLTR is not a good candidate for this strategy. ❌
+
+
+(.venv) akhilesh@Snehas-MacBook-Air Trading Strategy Backtester % py cointegration_test.py
+/Users/akhilesh/Code/Trading Strategy Backtester/cointegration_test.py:12: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  data = yf.download(tickers, start=start_date, end=end_date)['Close']
+[*********************100%***********************]  2 of 2 completed
+Hedge Ratio (Beta): 1.7132
+
+--- ADF Test Results ---
+ADF Statistic: -2.7919
+P-value: 0.0594
+
+Conclusion: The p-value is greater than 0.05. The spread is likely non-stationary.
+The pair EWA/EWC is not a good candidate for this strategy. ❌
+
+The economic thesis has also failed here 🥲
